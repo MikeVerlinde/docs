@@ -27,7 +27,11 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "User Guides",
+      "url": "api-reference"
+    },
+    {
+      "name": "Release Notes",
       "url": "api-reference"
     }
   ],
@@ -52,13 +56,33 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "Overview",
+        "problem-analysis",
+        "Roadmap",
+        "Tokenomics"
       ]
     },
     {
+      "group": "Solutions",
+      "pages": [
+        "solutions/advanced-function-calling",
+        "solutions/rich-interfaces",
+        "solutions/complex-agentic-orchestration",
+        "solutions/workflows"
+      ]
+
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "legal/compliance",
+        "legal/disclaimer"
+      ]
+
+    },
+    {
       "group": "Essentials",
+
       "pages": [
         "essentials/markdown",
         "essentials/code",
