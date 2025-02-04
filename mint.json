@@ -65,12 +65,11 @@
     {
       "group": "Solutions",
       "pages": [
-        "solutions/advanced-function-calling",
-        "solutions/rich-interfaces",
-        "solutions/complex-agentic-orchestration",
-        "solutions/workflows"
+        "solutions/hyperfunctions",
+        "solutions/rich-ui",
+        "solutions/constellation",
+        "solutions/hyperflow"
       ]
-
     },
     {
       "group": "Legal",
