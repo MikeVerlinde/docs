@@ -8,8 +8,8 @@
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "light": "#0080FF",
+    "dark": "#10319E",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -27,16 +27,29 @@
   },
   "tabs": [
     {
-      "name": "User Guides",
-      "url": "api-reference"
+      "name": "Publications",
+      "url": "publications"
     },
     {
       "name": "Release Notes",
-      "url": "api-reference"
+      "url": "release-notes"
+    },
+    {
+      "name": "User Guides",
+      "url": "user-guides"
+    },
+    {
+      "name": "Developer Guides",
+      "url": "dev-guides"
+    },
+    {
+      "name": "FAQ",
+      "url": "faq"
     }
   ],
   "anchors": [
     {
+
       "name": "Documentation",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
@@ -65,45 +78,19 @@
     {
       "group": "Solutions",
       "pages": [
+        "solutions/hyper-os",
         "solutions/hyperfunctions",
-        "solutions/rich-ui",
-        "solutions/constellation",
-        "solutions/hyperflow"
+        "solutions/hyper-ui",
+        "solutions/hyperflow",
+        "solutions/hyperswarm"
       ]
     },
     {
       "group": "Legal",
       "pages": [
-        "legal/compliance",
         "legal/disclaimer"
       ]
 
-    },
-    {
-      "group": "Essentials",
-
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
